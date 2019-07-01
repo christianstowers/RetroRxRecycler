@@ -27,8 +27,9 @@
             android:id="@+id/tv_version"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            card_view:layout_constraintBottom_toBottomOf="parent"
-            card_view:layout_constraintStart_toStartOf="parent" />
+            android:layout_marginLeft="8dp"
+            card_view:layout_constraintStart_toEndOf="@id/tv_name"
+            card_view:layout_constraintTop_toTopOf="parent" />
 
         <TextView
             android:id="@+id/tv_api_level"
